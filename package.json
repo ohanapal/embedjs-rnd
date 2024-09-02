@@ -1,0 +1,25 @@
+{
+  "name": "llm-rag-application",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "target": "es6",
+  "dependencies": {
+    "@llm-tools/embedjs": "^0.0.95",
+    "chromadb": "^1.8.1",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongodb": "^6.8.0",
+    "node": "^22.6.0",
+    "office-text-extractor": "^3.0.3",
+    "openai": "^4.56.0",
+    "vectordb": "^0.9.0"
+  }
+}
